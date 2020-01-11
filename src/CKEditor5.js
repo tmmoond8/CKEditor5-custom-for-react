@@ -1,7 +1,7 @@
 import React from 'react';
 import CKEditor5 from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import './CKEditor.css';
+import './CKEditor5.css';
 
 const CKEditor = (props) => {
   const { content, onChange } = props;
